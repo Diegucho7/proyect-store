@@ -10,7 +10,7 @@ import { RegisterPageComponent } from './pages/register-page/register-page.compo
   declarations: [
   
     LayoutPageComponent,
-       RegisterPageComponent
+       RegisterPageComponent,
   ],
   imports: [
     CommonModule,
