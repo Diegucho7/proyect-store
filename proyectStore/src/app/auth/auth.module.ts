@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { AuthRoutingModule } from './auth-routing.module';
 import { LayoutPageComponent } from './pages/layout-page/layout-page.component';
 import { RegisterPageComponent } from './pages/register-page/register-page.component';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -14,7 +15,8 @@ import { RegisterPageComponent } from './pages/register-page/register-page.compo
   ],
   imports: [
     CommonModule,
-    AuthRoutingModule
+    AuthRoutingModule,
+    RouterModule
 
   ]
 })
