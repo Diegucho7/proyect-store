@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FormControl, FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'app-new-page',
@@ -7,5 +8,15 @@ import { Component } from '@angular/core';
   ]
 })
 export class NewPageComponent {
+
+  public heroForm = new FormGroup({
+    id: new FormControl(''),
+    nombre: new FormControl(''),
+    apellido: new FormControl(''),
+    email: new FormControl(''),
+    password: new FormControl(''),
+  });
+
+
 
 }
