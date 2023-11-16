@@ -7,6 +7,7 @@ import { LayoutPageComponent } from './pages/layout-page/layout-page.component';
 import { ListPageComponent } from './pages/list-page/list-page.component';
 import { NewPageComponent } from './pages/new-page/new-page.component';
 import { SearchPageComponent } from './pages/search-page/search-page.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { SearchPageComponent } from './pages/search-page/search-page.component';
     SearchPageComponent
   ],
   imports: [
+    ReactiveFormsModule,
     CommonModule,
     HeroesRoutingModule
   ]
