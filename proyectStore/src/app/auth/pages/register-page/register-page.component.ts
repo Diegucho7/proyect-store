@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validator } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 @Component({
@@ -7,7 +7,10 @@ import { ReactiveFormsModule } from '@angular/forms';
   styleUrls: ['./register-page.component.css']
 })
 // const id: void <string>
-export class RegisterPageComponent {
+export class RegisterPageComponent implements OnInit {
+  ngOnInit(): void {
+    // throw new Error('Method not implemented.');
+  }
 
   public heroForm = new FormGroup({
     id: new FormControl<string>(''),
@@ -17,13 +20,18 @@ export class RegisterPageComponent {
     user: new FormControl<string>(''),
     password: new FormControl<string>(''),
   });
-
+  
 
   onSubmit():void{
 
     if (this.heroForm.invalid)return;
 
-    // if(this.heroForm.id){}
+    // if ( this.currentHero.id ) {
+    //   this.heroesService.updateHero( this.currentHero )
+    //     .subscribe( hero => {
+    //       this.showSnackbar(`${ hero.superhero } updated!`);
+    //     });
+
 
     console.log({
       formIsValid: this.heroForm.valid,

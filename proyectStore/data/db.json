@@ -1,0 +1,171 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "usuario": "John Doe",
+        "email": "john.due@gmail.com"
+      }
+    ],
+    "heroes": [
+      {
+        "id": "dc-batman",
+        "name": "Batman",
+        "lastname": "DC Comics",
+        "user": "Bruce Wayne",
+        "password": "Detective Comics #27",
+        "characters": "Bruce Wayne"
+      },
+      {
+        "id": "dc-superman",
+        "name": "Superman",
+        "lastname": "DC Comics",
+        "user": "Kal-El",
+        "password": "Action Comics #1",
+        "characters": "Kal-El"
+      },
+      {
+        "id": "dc-flash",
+        "name": "Flash",
+        "lastname": "DC Comics",
+        "user": "Jay Garrick",
+        "password": "Flash Comics #1",
+        "characters": "Jay Garrick, Barry Allen, Wally West, Bart Allen"
+      },
+      {
+        "id": "dc-green",
+        "name": "Green Lantern",
+        "lastname": "DC Comics",
+        "user": "Alan Scott",
+        "password": "All-American Comics #16",
+        "characters": "Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Raynor, Jade, Sinestro, Simon Baz"
+      },
+      {
+        "id": "dc-arrow",
+        "name": "Green Arrow",
+        "lastname": "DC Comics",
+        "user": "Oliver Queen",
+        "password": "More Fun Comics #73",
+        "characters": "Oliver Queen"
+      },
+      {
+        "id": "dc-wonder",
+        "name": "Wonder Woman",
+        "lastname": "DC Comics",
+        "user": "Princess Diana",
+        "password": "All Star Comics #8",
+        "characters": "Princess Diana"
+      },
+      {
+        "id": "dc-martian",
+        "name": "Martian Manhunter",
+        "lastname": "DC Comics",
+        "user": "J\"onn J\"onzz",
+        "password": "Detective Comics #225",
+        "characters": "Martian Manhunter"
+      },
+      {
+        "id": "dc-robin",
+        "name": "Robin/Nightwing",
+        "lastname": "DC Comics",
+        "user": "Dick Grayson",
+        "password": "Detective Comics #38",
+        "characters": "Dick Grayson"
+      },
+      {
+        "id": "dc-blue",
+        "name": "Blue Beetle",
+        "lastname": "DC Comics",
+        "user": "Dan Garret",
+        "password": "Mystery Men Comics #1",
+        "characters": "Dan Garret, Ted Kord, Jaime Reyes"
+      },
+      {
+        "id": "dc-black",
+        "name": "Black Canary",
+        "lastname": "DC Comics",
+        "user": "Dinah Drake",
+        "password": "Flash Comics #86",
+        "characters": "Dinah Drake, Dinah Lance"
+      },
+      {
+        "id": "marvel-spider",
+        "name": "Spider Man",
+        "lastname": "Marvel Comics",
+        "user": "Peter Parker",
+        "password": "Amazing Fantasy #15",
+        "characters": "Peter Parker"
+      },
+      {
+        "id": "marvel-captain",
+        "name": "Captain America",
+        "lastname": "Marvel Comics",
+        "user": "Steve Rogers",
+        "password": "Captain America Comics #1",
+        "characters": "Steve Rogers"
+      },
+      {
+        "id": "marvel-iron",
+        "name": "Iron Man",
+        "lastname": "Marvel Comics",
+        "user": "Tony Stark",
+        "password": "Tales of Suspense #39",
+        "characters": "Tony Stark"
+      },
+      {
+        "id": "marvel-thor",
+        "name": "Thor",
+        "lastname": "Marvel Comics",
+        "user": "Thor Odinson",
+        "password": "Journey into Myster #83",
+        "characters": "Thor Odinson"
+      },
+      {
+        "id": "marvel-hulk",
+        "name": "Hulk",
+        "lastname": "Marvel Comics",
+        "user": "Bruce Banner",
+        "password": "The Incredible Hulk #1",
+        "characters": "Bruce Banner"
+      },
+      {
+        "id": "marvel-wolverine",
+        "name": "Wolverine",
+        "lastname": "Marvel Comics",
+        "user": "James Howlett",
+        "password": "The Incredible Hulk #180",
+        "characters": "James Howlett"
+      },
+      {
+        "id": "marvel-daredevil",
+        "name": "Daredevil",
+        "lastname": "Marvel Comics",
+        "user": "Matthew Michael Murdock",
+        "password": "Daredevil #1",
+        "characters": "Matthew Michael Murdock"
+      },
+      {
+        "id": "marvel-hawkeye",
+        "name": "Hawkeye",
+        "lastname": "Marvel Comics",
+        "user": "Clinton Francis Barton",
+        "password": "Tales of Suspense #57",
+        "characters": "Clinton Francis Barton"
+      },
+      {
+        "id": "marvel-cyclops",
+        "name": "Cyclops",
+        "lastname": "Marvel Comics",
+        "user": "Scott Summers",
+        "password": "X-Men #1",
+        "characters": "Scott Summers"
+      },
+      {
+        "id": "marvel-silver",
+        "name": "Silver Surfer",
+        "lastname": "Marvel Comics",
+        "user": "Norrin Radd",
+        "password": "The Fantastic Four #48",
+        "characters": "Norrin Radd"
+      }
+    ]
+  }
