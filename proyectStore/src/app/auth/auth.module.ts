@@ -7,6 +7,8 @@ import { RouterModule } from '@angular/router';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ListPageComponent } from './pages/list-page/list-page.component';
 
+import { CardComponent } from './component/card/card.component';
+
 
 
 @NgModule({
@@ -15,6 +17,8 @@ import { ListPageComponent } from './pages/list-page/list-page.component';
     LayoutPageComponent,
        RegisterPageComponent,
        ListPageComponent,
+     
+       CardComponent,
   ],
   imports: [
     CommonModule,
