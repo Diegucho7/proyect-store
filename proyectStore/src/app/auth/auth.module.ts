@@ -5,6 +5,7 @@ import { LayoutPageComponent } from './pages/layout-page/layout-page.component';
 import { RegisterPageComponent } from './pages/register-page/register-page.component';
 import { RouterModule } from '@angular/router';
 import { ReactiveFormsModule } from '@angular/forms';
+import { ListPageComponent } from './pages/list-page/list-page.component';
 
 
 
@@ -13,6 +14,7 @@ import { ReactiveFormsModule } from '@angular/forms';
   
     LayoutPageComponent,
        RegisterPageComponent,
+       ListPageComponent,
   ],
   imports: [
     CommonModule,
