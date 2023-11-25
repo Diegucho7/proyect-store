@@ -6,8 +6,8 @@ import { RegisterPageComponent } from './pages/register-page/register-page.compo
 import { RouterModule } from '@angular/router';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ListPageComponent } from './pages/list-page/list-page.component';
-
 import { CardComponent } from './component/card/card.component';
+
 
 
 
@@ -17,8 +17,9 @@ import { CardComponent } from './component/card/card.component';
     LayoutPageComponent,
        RegisterPageComponent,
        ListPageComponent,
-     
        CardComponent,
+     
+       
   ],
   imports: [
     CommonModule,

@@ -4,16 +4,16 @@ import { Hero } from '../../interface/hero.interface';
 @Component({
   selector: 'heroes-hero-card',
   templateUrl: './card.component.html',
-  styles: [
-  ]
+  styleUrls: ['./card.component.css']
 })
-export class CardComponent implements OnInit {
-  ngOnInit(): void {
-    if (!this.hero) throw Error ('Hero property is requer')
-  }
+export class CardComponent implements OnInit{
+  
+
 
   @Input()
   public hero!: Hero;
-
+  ngOnInit(): void {
+    if(!this.hero)throw Error ('Hero property is require');
+  }
 
 }
