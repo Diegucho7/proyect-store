@@ -1,1 +1,7 @@
-<p>list-page works!</p>
+<h1>Listado de Documentos</h1>
+
+<div *ngFor="let hero of heroes"
+     class="col-12 sm:col-4 md:col-3 xl:col-2">
+     <heros-hero-card [hero]="hero"></heros-hero-card>
+     
+    </div>
