@@ -9,6 +9,7 @@ import { NewPageComponent } from './pages/new-page/new-page.component';
 import { SearchPageComponent } from './pages/search-page/search-page.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { CardComponent } from './components/card/card.component';
+import { MaterialModule } from '../material/material.module';
 
 
 @NgModule({
@@ -18,12 +19,18 @@ import { CardComponent } from './components/card/card.component';
     ListPageComponent,
     NewPageComponent,
     SearchPageComponent,
-    CardComponent
+    CardComponent,
+    // MaterialModule
+    
   ],
   imports: [
     ReactiveFormsModule,
     CommonModule,
-    HeroesRoutingModule
+    HeroesRoutingModule,
+    MaterialModule
+    
   ]
 })
-export class HeroesModule { }
+export class HeroesModule {
+  
+ }

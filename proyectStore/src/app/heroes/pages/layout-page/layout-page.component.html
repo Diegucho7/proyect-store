@@ -1,9 +1,29 @@
-<p>layout-page works!</p>
 
-<nav class="nav flex-column">
+<!-- <nav class="nav flex-column"> -->
   <!-- <a class="nav-link active" aria-current="page" href="#">Active</a>
   <a class="nav-link" href="#">Link</a>
   <a class="nav-link" href="#">Link</a>
   <a class="nav-link disabled" aria-disabled="true">Disabled</a> -->
-</nav>
+<!-- </nav> -->
+<mat-sidenav-container fullsreen>
+
+  <mat-sidenav #sidenav mode= "push" [ngStyle] = " {style: '250px' } ">
+    <mat-toolbar>
+      <span>Menú</span>
+      <span class="spacer"></span>
+      <button mat-icon-button (click)="sidenav.toggle()">
+        <mat-icon>menu</mat-icon>
+      </button>
+    </mat-toolbar>
+  </mat-sidenav>
+
+  <mat-toolbar color="primary">
+    <button mat-icon-button (click)="sidenav.toggle()">
+      <mat-icon>menu</mat-icon>
+    </button>
+
+  </mat-toolbar>
+</mat-sidenav-container>
+
+
 <router-outlet></router-outlet>
