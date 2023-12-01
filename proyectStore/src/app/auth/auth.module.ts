@@ -7,6 +7,8 @@ import { RouterModule } from '@angular/router';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ListPageComponent } from './pages/list-page/list-page.component';
 import { CardComponent } from './component/card/card.component';
+import { MaterialModule } from '../material/material.module';
+import { LoginPageComponent } from './pages/login-page/login-page.component';
 
 
 
@@ -18,10 +20,12 @@ import { CardComponent } from './component/card/card.component';
        RegisterPageComponent,
        ListPageComponent,
        CardComponent,
+       LoginPageComponent,
      
        
   ],
   imports: [
+    MaterialModule,
     CommonModule,
     AuthRoutingModule,
     RouterModule,
