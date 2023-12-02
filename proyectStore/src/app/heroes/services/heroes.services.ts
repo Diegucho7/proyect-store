@@ -16,4 +16,8 @@
          return this.httpClient.get<Hero[]>(`${this.baseUrl}/heroes`);
      }
 
+        getHeroById(id: string):Observable<Hero>{
+            return this.httpClient.get<Hero>(`${this.baseUrl}/heroes/${id}`);
+        }
+
  }

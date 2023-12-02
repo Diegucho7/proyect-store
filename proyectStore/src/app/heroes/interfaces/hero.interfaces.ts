@@ -7,6 +7,7 @@ export interface Hero {
     user:       string;
     password:   string;
     characters: string;
+    alt_img?: string;
 }
 
 export enum Lastname {
