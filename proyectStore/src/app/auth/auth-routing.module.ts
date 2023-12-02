@@ -17,10 +17,7 @@ const routes: Routes = [
             path: 'register',
             component: RegisterPageComponent
         },
-        {
-            path: 'list',
-            component: ListPageComponent
-        },
+       
         {
             path: 'login',
             component: LoginPageComponent
